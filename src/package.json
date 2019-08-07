@@ -1,7 +1,7 @@
 {
-  "name": "alexa-starter-kit",
+  "name": "us-civics-test-prep",
   "version": "0.0.1",
-  "description": "A bare bones app to fill in with your ingenious skill",
+  "description": "An Alexa skill game to prep for the U.S. civics test",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./tests/*.tests.js",
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/craigbilner/alexa-starter-kit.git"
+    "url": "git+https://github.com/fernandamarr/us-civics-test-prep"
   },
   "keywords": [
     "alexa",
-    "starter",
-    "kit",
-    "amazon",
+    "game",
+    "civics",
+    "prep",
     "aws",
     "gulp",
     "deploy",
@@ -26,12 +26,9 @@
     "echo",
     "voice"
   ],
-  "author": "Craig Bilner",
+  "author": "Fernanda Marroquin",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/craigbilner/alexa-starter-kit/issues"
-  },
-  "homepage": "https://github.com/craigbilner/alexa-starter-kit#readme",
+  "homepage": "https://github.com/fernandamarr/us-civics-test-prep",
   "dependencies": {
     "alexa-sdk": "^1.0.3",
     "seedrandom": "^2.4.2"
