@@ -35,12 +35,13 @@ class Quiz extends Component {
   handleClick = () => {
     const { userAnswer, answer, score } = this.state;
 
+    // increases score if answer is correct
     if (userAnswer === answer) {
       this.setState({
         score: score + 1
       })
     }
-
+    // moves on to next question
     this.setState({
       currentQuestion: this.state.currentQuestion + 1
     })
