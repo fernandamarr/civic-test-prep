@@ -12,6 +12,6 @@ This quiz is for people who are applying for citizenship in the U.S. and need su
 Creating this app was inspired by my parents and all immigrants who have waited too long for citizenship. A piece of paper will never define our humanity. I hope this app will help with your studies.
 
 ## Technologies Used
-React
-JavaScript
-CSS
+- React
+- JavaScript
+- CSS

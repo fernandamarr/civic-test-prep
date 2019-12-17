@@ -1,4 +1,4 @@
-let qBank = [
+export const qBank = [
 	{
 		id: 0,
 		question: 'What is the supreme law of the land?',
@@ -7,22 +7,20 @@ let qBank = [
 	},
 	{
 		id: 1,
-		question: 'This is the second question',
-		options: [1, 2, 3],
-		answer: 2
+		question: 'What does the constitution do?',
+		options: ['Sets up the Government and protests the basic rights of Americans', 'Gives workers holidays', 'Lessens thev wage gap'],
+		answer: 'Sets up the Government and protests the basic rights of Americans'
 	},
 	{
 		id: 2,
-		question: 'This is the third question',
-		options: [1, 2, 3, 4, 5, 6],
-		answer: 6
+		question: 'The idea of self-government is in the first three words of the Constitution. What are these words?',
+		options: ['We the Americans','We the Humans','We the People'],
+		answer: 'We the people'
 	},
 	{
 		id: 3,
-		question: 'This is the third question',
-		options: ['yes', 'no', 'maybe'],
-		answer: 'maybe'
+		question: 'What is an amendment?',
+		options: ['An addition to Military','A change or addition to the Constitution', 'A change to the name of U.S. state'],
+		answer: 'A change or addition to the Constitution'
 	}
 ]
-
-export default qBank;
