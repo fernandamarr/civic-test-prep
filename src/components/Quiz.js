@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import { qBank } from './quizData'
 
+// add 100 questions but only shuffle through 10 at a time
+// at the end of the quiz, show number of questions that were right and wrong and option to play again or review flashcards
+// have page for flashcards (question on front and questions on back, flips when user clicks on flashcard)
+// during quiz, show which answer was right and which was wrong
+// on flashcards, have longer explanations under answer
+// translate app to spanish
+
 class Quiz extends Component {
   constructor() {
     super()
