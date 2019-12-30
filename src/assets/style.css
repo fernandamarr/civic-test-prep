@@ -18,7 +18,7 @@ body {
 
 .selected, .options:hover{
   color: black !important;
-  background: #81d7ff  /* fallback for old browsers */
+  background: #D3CCE3  /* fallback for old browsers */
   !important;
 }
 
@@ -35,9 +35,7 @@ ul {
 .quiz {
   color: rgb(255, 255, 255);
   border-radius: 3%;;
-  background: #ff4b1f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #52504f;
     padding: 30px;
   position: fixed;
   top: 50%;

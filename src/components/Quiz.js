@@ -98,14 +98,14 @@ class Quiz extends Component {
     const { questions, options, userAnswer, currentQuestion, end } = this.state;
     if (end) {
       return (
-      <div>
-        <h2>
-          Game Over! <br/> Your final score is {this.state.score}
-        </h2>
-        <button 
+        <div>
+          <h2>
+            Game Over! <br /> Your final score is {this.state.score}
+          </h2>
+          <button
             className='ui inverted button'
             onClick={this.playAgain}>Play Again</button>
-        {/* <div>Below are all the correct answers for you to review: 
+          {/* <div>Below are all the correct answers for you to review: 
         <ul>
           {qBank.map((item, index) => (
             <li className="ui floating message options" key={index}>{item.question}: {item.answer}</li>
@@ -113,13 +113,13 @@ class Quiz extends Component {
         </ul>
 
         </div> */}
-      </div>
+        </div>
       );
     } else {
       return (
         <div className="App">
           <h1>{questions}</h1>
-        
+
           <span>{`Question ${currentQuestion + 1} out of ${qBank.length}`}</span>
           {options.map(option => (
             <p
@@ -139,13 +139,13 @@ class Quiz extends Component {
             </button>
           )}
           {currentQuestion === qBank.length - 1 && (
-            <button 
-            className='ui inverted button'
-            onClick={this.finishQuiz}>Finish</button>
+            <button
+              className='ui inverted button'
+              onClick={this.finishQuiz}>Finish</button>
           )}
         </div>
       );
-    }  
+    }
   }
 }
 
